@@ -1,0 +1,44 @@
+.item {
+    
+}
+
+.image {
+    height: 292px;
+    width: 292px;
+}
+
+.title {
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.info {
+    background: #000;
+    border-radius: 50%;
+    bottom: 0;
+    color: #fff;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    width: 25px;
+    z-index: 1;
+}

@@ -1,2 +1,5 @@
 [*]
 end_of_line = lf
+
+[*.scss]
+insert_final_newline = true
