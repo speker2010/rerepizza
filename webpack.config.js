@@ -44,6 +44,7 @@ module.exports = {
         <html>
           <body>
             <div id="root"></div>
+            <div id="modal-portal"></div>
           </body>
         </html>
       `

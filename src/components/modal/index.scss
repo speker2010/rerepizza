@@ -1,0 +1,30 @@
+.overlay {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.modal {
+    background: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+.close-button {
+    background: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(100%);
+}

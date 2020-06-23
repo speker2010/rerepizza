@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.scss';
+import CartButton from '../cart-button/index.jsx';
 
 export default function Header(props) {
     return (<header className={styles.header}>
@@ -8,7 +9,7 @@ export default function Header(props) {
                 <a href="">item 1</a>
                 <a href="">item 2</a>
             </nav>
-            {props.basket}
+            <CartButton />
         </div>
     </header>);
 }
