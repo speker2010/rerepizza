@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './styles.scss';
 import CartButton from '../cart-button/index.jsx';
+import { Link } from 'react-router-dom';
 
 export default function Header(props) {
     return (<header className={styles.header}>
         <div className={`${styles.content} container`}>
             <nav>
-                <a href="">item 1</a>
-                <a href="">item 2</a>
+                <Link to="/">Home</Link>
             </nav>
             <CartButton />
         </div>

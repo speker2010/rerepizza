@@ -25,10 +25,4 @@ function ExtendProductItem (props) {
     );
 }
 
-function mapDispatchToProps(store) {
-    return {
-        add: addItem
-    };
-}
-
-export default connect(null, mapDispatchToProps)(ExtendProductItem);
+export default connect(null, { add: addItem })(ExtendProductItem);
